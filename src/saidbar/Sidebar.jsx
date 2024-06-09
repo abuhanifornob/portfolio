@@ -4,7 +4,7 @@ import hanif from "../assets/images/Hanif.JPG";
 const Sidebar = () => {
   return (
     <div>
-      <div className="w-1/4 h-screen bg-gray-800 text-white  p-8 fixed text-center">
+      <div className="hidden md:block md:w-1/4 h-screen bg-gray-800 text-white  p-8 fixed text-center">
         <div className="text-2xl font-bold mb-4">
           <div className="flex justify-center items-center">
             <img src={hanif} alt="" className="w-32 h-32 rounded-full " />

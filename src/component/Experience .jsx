@@ -1,6 +1,6 @@
 const Experience = () => {
   return (
-    <div id="experience" className="text-center my-4">
+    <div id="experience" className="text-center my-4" data-aos="fade-down">
       <h2 className="text-4xl font-bold text-center mb-8">WORK EXPERIENCE</h2>
       <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical font-mono">
         <li>

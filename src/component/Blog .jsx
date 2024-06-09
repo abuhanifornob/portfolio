@@ -24,18 +24,18 @@ const Blog = () => {
     // Add more blog posts as needed
   ];
   return (
-    <div id="blog" className="text-center my-4 " data-aos="fade-left">
+    <div id="blog" className=" my-4 font-mono" data-aos="fade-left">
       <div className="p-8" id="blog">
-        <h2 className="text-4xl font-bold text-center mb-8">Blog</h2>
+        <h2 className="text-4xl text-center font-bold  mb-8">Blog</h2>
         <div className="space-y-8">
           {blogData.map((post, index) => (
             <div
               key={index}
-              className="bg-white shadow-lg rounded-lg overflow-hidden p-6"
+              className="bg-gray-800 p-8 shadow-lg rounded-lg overflow-hidden text-white hover:scale-105 duration-75"
             >
               <h3 className="text-2xl font-bold mb-2">{post.title}</h3>
-              <p className="text-gray-500 mb-4">{post.date}</p>
-              <p className="text-gray-700 mb-4">{post.excerpt}</p>
+              <p className=" mb-4">{post.date}</p>
+              <p className=" mb-4">{post.excerpt}</p>
               <a
                 href={post.link}
                 className="text-blue-500 hover:underline"

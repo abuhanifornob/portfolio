@@ -62,10 +62,10 @@ const Skills = () => {
   ];
 
   return (
-    <div id="skills" className="text-center my-4 font-mono">
+    <div id="skills" className="text-center my-4 font-mono" data-aos="fade-up">
       <div className="p-8" id="skills">
         <h2 className="text-4xl font-bold text-center mb-8">Skills</h2>
-        <div className="flex flex-col md:flex-row justify-around">
+        <div className="flex flex-col sm:flex-row justify-around">
           <div className="mb-8 md:mb-0 md:w-1/3">
             <h3 className="text-3xl font-semibold mb-4 text-start">
               Expertise

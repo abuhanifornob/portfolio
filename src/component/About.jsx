@@ -1,8 +1,12 @@
 const About = () => {
   return (
-    <div id="about" className="text-center text-2xl font-bold my-4">
+    <div
+      id="about"
+      className="text-center text-2xl font-bold my-4"
+      data-aos="fade-down"
+    >
       <div>
-        <h2 className="text-4xl font-bold text-center mb-8">ABUT ME</h2>
+        <h2 className="text-4xl font-bold text-center mb-8">ABOUT US</h2>
       </div>
       <p className="text-justify text-xl font-mono">
         With a solid background in IT support, I am now transitioning into

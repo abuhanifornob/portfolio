@@ -1,4 +1,5 @@
 import bannerImage from "../assets/images/hanif-banner.jpg";
+import { FaCloudDownloadAlt } from "react-icons/fa";
 const Banner = () => {
   return (
     <div
@@ -17,19 +18,27 @@ const Banner = () => {
         ></div>
 
         {/* Dark overlay for better text visibility */}
-        <div className="absolute inset-0 bg-black opacity-50 rounded-lg"></div>
+        <div className="absolute inset-0 bg-black opacity-70 rounded-lg"></div>
 
         {/* Content */}
-        <div className="relative text-yellow-100" data-aos="fade-up">
+        <div
+          className="relative top-16 -left-32 text-yellow-100"
+          data-aos="fade-up"
+        >
           <h1 className="text-5xl font-bold mb-4">Hi, I Am Abu Hanif</h1>
           <h2 className="text-3xl mb-6">Full Stack Developer</h2>
           <div className="flex justify-start">
             <a
-              href="/path/to/your/resume.pdf"
+              href="https://drive.google.com/file/d/1BX3FtzzxKWBbCkHSLLNRJeyzXduGVgIH/view?usp=drive_link"
               download
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+              className="bg-blue-500 opacity-70 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
             >
-              Download Resume
+              <div className="flex justify-center items-center">
+                <span>
+                  <FaCloudDownloadAlt />
+                </span>
+                Resume
+              </div>
             </a>
           </div>
         </div>

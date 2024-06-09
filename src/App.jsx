@@ -26,7 +26,7 @@ function App() {
         <Sidebar />
       </div>
 
-      <div className=" w-3/4 p-8">
+      <div className="w-full md:w-3/4 p-8">
         <Banner />
         <About />
         <Skills />
