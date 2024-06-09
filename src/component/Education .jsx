@@ -17,7 +17,11 @@ const Education = () => {
     },
   ];
   return (
-    <div id="education" className="text-center my-4 font-mono ">
+    <div
+      id="education"
+      className="text-center my-4 font-mono "
+      data-aos="fade-right"
+    >
       <h2 className="text-4xl font-bold text-center mb-8">
         EDUCATION AND COURSES
       </h2>
