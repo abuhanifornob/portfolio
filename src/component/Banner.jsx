@@ -22,7 +22,7 @@ const Banner = () => {
 
         {/* Content */}
         <div
-          className="relative top-16 -left-32 text-yellow-100"
+          className="relative to-16 left-0 md:top-16 md:-left-32 text-yellow-100"
           data-aos="fade-up"
         >
           <h1 className="text-5xl font-bold mb-4">Hi, I Am Abu Hanif</h1>

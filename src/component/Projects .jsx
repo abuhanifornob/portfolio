@@ -53,7 +53,7 @@ const Projects = () => {
             that 15+ projects done sucessfully!
           </h3>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 text-start">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-start">
           {projectData.map((project, index) => (
             <div
               key={index}
