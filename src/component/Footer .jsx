@@ -10,7 +10,7 @@ const Footer = () => {
           </p>
           <div className="flex justify-center space-x-6">
             <a
-              href="https://www.linkedin.com/in/lin"
+              href="https://www.linkedin.com/in/mern-abu-hanif/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-blue-500"
@@ -18,7 +18,7 @@ const Footer = () => {
               <FaLinkedin size={24} />
             </a>
             <a
-              href="https://www.facebook.com/"
+              href="https://www.facebook.com/profile.php?id=100094944106787"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-blue-500"
@@ -26,7 +26,7 @@ const Footer = () => {
               <FaFacebook size={24} />
             </a>
             <a
-              href="https://github.com/"
+              href="https://github.com/abuhanifornob"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-blue-500"
